@@ -5,6 +5,8 @@ import thunk from "redux-thunk";
 const initState: any = {
   allCountries: {
     countries: [],
+    loading: false,
+    error: false,
   },
 };
 

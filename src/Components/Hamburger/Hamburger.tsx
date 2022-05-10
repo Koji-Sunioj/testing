@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+
 import "./Hamburger.css";
 
 const Hamburger = () => {
@@ -17,19 +17,19 @@ const Hamburger = () => {
         </button>
         <ul className={click ? "hamburger__menu active" : "hamburger__menu"}>
           <li className="hamburger__item">
-            <Link to="/" className="hamburger__links" onClick={closeMenu}>
+            <button className="hamburger__links" onClick={closeMenu}>
               Red theme
-            </Link>
+            </button>
           </li>
           <li className="hamburger__item">
-            <Link to="/blue" className="hamburger__links" onClick={closeMenu}>
+            <button className="hamburger__links" onClick={closeMenu}>
               Blue theme
-            </Link>
+            </button>
           </li>
           <li className="hamburger__item">
-            <Link to="/violet" className="hamburger__links" onClick={closeMenu}>
+            <button className="hamburger__links" onClick={closeMenu}>
               Violet theme
-            </Link>
+            </button>
           </li>
         </ul>
       </div>

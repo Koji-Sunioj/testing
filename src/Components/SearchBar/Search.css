@@ -1,5 +1,12 @@
 .search {
+  /* this will push outside the screen on small screens
   margin-left: 70px;
+  flex will make sure this stays center
+  you can use for example 
+  width: 50%;
+  depending on screen breakpoints
+  */
+
   display: flex;
 }
 

@@ -2,6 +2,8 @@ import ActionTypes from "../actions/actionTypes";
 
 const initialState = {
   countries: [],
+  loading: false,
+  error: false,
 };
 
 export function countryReducer(state = initialState, action: any) {
