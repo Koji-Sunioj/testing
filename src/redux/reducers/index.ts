@@ -1,12 +1,9 @@
-import { combineReducers } from 'redux'
+import { combineReducers } from "redux";
+import { countryReducer } from "./countryReducer";
 
-import product from './product'
-import ui from './ui'
-
-const createRootReducer = () =>
+const reducers = () =>
   combineReducers({
-    product,
-    ui,
-  })
+    allCountries: countryReducer,
+  });
 
-export default createRootReducer
+export default reducers;

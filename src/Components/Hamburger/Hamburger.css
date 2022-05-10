@@ -1,0 +1,35 @@
+.hamburger__content {
+  display: block;
+  text-align: left;
+}
+
+.hamburger__icon {
+  background-color: rgb(179, 138, 138);
+  border: none;
+}
+
+.fa-bars {
+  font-size: 22px;
+  margin-top: 20px;
+}
+
+.fa-close {
+  font-size: 22px;
+  margin-top: 20px;
+  margin-right: 2px;
+}
+
+ul li {
+  display: block;
+  list-style-type: none;
+  font-size: 20px;
+  text-decoration-style: none;
+}
+
+.hamburger__links {
+  text-decoration: none;
+  margin-left: -20px;
+  left: -100%;
+  display: flex;
+  flex-direction: column;
+}

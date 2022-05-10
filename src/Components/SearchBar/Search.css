@@ -1,0 +1,14 @@
+.search {
+  margin-left: 70px;
+  display: flex;
+}
+
+.search__bar {
+  font-size: 15px;
+  width: 80%;
+}
+
+.fa-search {
+  font-size: 16px;
+  outline: none;
+}
